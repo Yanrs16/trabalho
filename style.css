@@ -1,0 +1,80 @@
+.cabeçalho{
+    background-color: white;
+    color: green;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.TIME{
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.body{
+    background-color: rgb(181, 248, 201);
+
+}
+.box{
+    display: inline-block;
+    padding: 20px  50px;
+    margin: 0 80px ;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 18px;
+}
+.pizza{
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.bebidas{
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.body {
+    font-family: Arial, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .cabeçalho img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .box {
+        display: block;
+        margin: 10px auto;
+        width: 80%; 
+        text-align: center;
+    }
+
+    h1, h2 {
+        font-size: 1.2em; 
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    .box {
+        font-size: 0.8em; 
+    }
+}
